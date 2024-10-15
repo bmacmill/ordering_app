@@ -1,0 +1,247 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    margin: 0 auto;
+    box-sizing: border-box;
+
+}
+.img-header{
+    margin: 0;
+    min-width: 600px;
+    height: 100px;
+}
+.bg-header {
+    margin: 0 auto;
+    background-image: url("../img/logo.jpg");
+    width: 600px;
+    height: 200px;
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    
+}
+
+.title-header, .sub-title-header {
+    color: white;
+    font-family: "Smythe", system-ui;
+    text-align: left;
+   
+   
+  }
+/* put in a container??? */
+  h2.title-header {
+    padding-top: 2em;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    font-size: 2.5rem;
+    margin-left: 1em;
+  }
+
+  h3.sub-title-header{
+    padding-top: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 1.125rem;
+    margin-left: 1em;
+   
+  }
+
+.order-btn {
+    width: 50px;
+    height: 50px;
+    color: #3C3C3C;
+    border: 1.5px solid #DEDEDE;
+    font-size: 1.5rem;
+    font-weight: 200;
+    line-height: 24px;
+    border-radius: 50%;
+    background-color: #ffff;
+}
+
+.modal {
+    display: none;
+}
+
+main {
+    text-align: center;
+}
+
+.menu-items, .modal {
+    width: 508px;
+    margin: 0 auto;
+    font-family: "Smythe", system-ui;
+}
+
+.order-item {
+    color: #000000;
+    display: flex;
+    justify-content: space-between;
+    padding: 2em 0;
+    border-bottom: 1px solid #D2D2D2;
+}
+
+.order-item-description {
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+    width: 200px;
+    padding: .5em 0 0 2em;
+    text-align: left; 
+}
+
+.order-item-emoji{
+    font-size: 4rem;
+}
+
+.order-item-name {
+    font-size: 1.75rem;
+}
+
+.order-item-ingredients{
+    font-size: 1rem;
+    color: #8B8B8B;
+}
+
+.order-item-price {
+    font-size: 1.25rem;
+}
+
+.complete-order {
+    width: 100%;
+    background-color:#16DB99;
+    box-shadow: 0px 1px 2px 0px #0000000D;
+    color: #FFFFFF;
+    font-size: 1rem;
+    padding: 1em 1.5em;
+    border: none;
+    font-family: 'Verdana, Geneva, Tahoma, sans-serif';
+    margin: 2em 0;
+    font-weight: 700;
+}
+
+.order-heading {    
+    text-align: center;
+    font-size: 1.75rem;
+}
+
+.order-submit {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    padding-left: 0;
+}
+
+.order-submit-name{
+    font-size: 1.75rem;
+    margin-right: .25em;
+}
+
+.remove{
+    font-family: 'Verdana, Geneva, Tahoma, sans-serif';
+    font-size: 0.75rem;
+    color: #BBBBBB;
+}
+
+.order-submit-price {
+    font-size: 1.5rem;
+    text-align: right;
+    margin-left: auto;
+}
+
+li:last-child{
+    border-bottom: 2px solid #393333;
+}
+
+.total-price {
+    display: flex;
+    justify-content: space-between;
+    color: #0E0E0E;
+}
+
+.total-price-price{
+    font-size: 1.75rem;
+}
+
+.total-price-total{
+    font-size: 1.25rem;
+}
+
+
+/*make payment modal!!!!! */
+
+.pay-modal {
+    display: none;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 350px;
+    width: 420px;
+    border-radius: 5px;
+    border: 1.3px solid #757575;
+    box-shadow: 5.19px 5.19px 255.44px 0px #00000080;
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+.pay-modal-text {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.pay-modal-inner{
+    width: 300px;
+    margin: 0 auto;
+}
+
+button {
+    box-sizing: border-box;
+    width: 100%;
+    background-color: #16DB99;
+    color: #FFFFFF;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border: none;
+    margin-top: 1em;
+    
+}
+
+input {
+    margin-top: 10px; 
+    border: 1.3px solid #757575;
+    padding: 13px;
+    width: 100%;
+    border-radius: 3px;
+}
+
+
+/* order complete */
+
+.order-complete {
+    width: 504px;
+    border: 1px solid red;
+    background-color: #ECFDF5;
+    padding: 20px;
+    text-align: center;
+   /* display: none; */
+}
+
+.order-complete-text{
+    font-family: "Smythe", system-ui;
+    font-size: 2rem;
+    color: #065F46;
+    text-align: center;
+    font-weight: 400;
+}

@@ -1,0 +1,72 @@
+
+* {
+    box-sizing: border-box;
+}
+
+.pay-modal {
+    display: none;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 350px;
+    width: 420px;
+    border-radius: 5px;
+    border: 1.3px solid #757575;
+    box-shadow: 5.19px 5.19px 255.44px 0px #00000080;
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+.pay-modal-text {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.pay-modal-inner{
+    width: 300px;
+    margin: 0 auto;
+}
+
+button {
+    box-sizing: border-box;
+    width: 100%;
+    background-color: #16DB99;
+    color: #FFFFFF;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border: none;
+    margin-top: 1em;
+    
+}
+
+input {
+    margin-top: 10px; 
+    border: 1.3px solid #757575;
+    padding: 13px;
+    width: 100%;
+    border-radius: 3px;
+}
+
+
+/* order complete */
+
+.order-complete {
+    width: 420px;
+    background-color: #ECFDF5;
+    padding: 20px;
+    margin: 0 auto;
+    display: block;
+
+    
+}
+.order-complete-text{
+    font-family: "Smythe", system-ui;
+    font-size: 2rem;
+    color: #065F46;
+    text-align: center;
+    font-weight: 400;
+}
